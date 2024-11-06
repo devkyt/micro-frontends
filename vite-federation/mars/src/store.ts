@@ -4,4 +4,4 @@ const countAtom = atom(0);
 
 const useCount = () => useAtom(countAtom)
 
-export { useCount, countAtom };
+export default useCount;

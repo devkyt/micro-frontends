@@ -11,7 +11,7 @@ export default defineConfig({
         filename: "marsEntry.js",
         exposes: { 
           "./Button": "./src/Button", 
-          "./store": "./src/store",
+          "./store": "./src/store.ts",
         },
         shared: ["react", "react-dom", "jotai"]
     })

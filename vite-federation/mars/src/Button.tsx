@@ -1,4 +1,4 @@
-import { useCount } from "./store";
+import useCount from "./store";
 
 const Button = () => {
   const [state, setState] = useCount();

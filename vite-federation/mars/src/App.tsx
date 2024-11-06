@@ -1,6 +1,6 @@
 import Button from './Button'
 import './App.css'
-import { useCount } from './store';
+import useCount  from './store';
 
 
 function App() {
